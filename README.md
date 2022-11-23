@@ -16,7 +16,7 @@
 <br>
 
 <h1>🎥 GIF</h1>
-<img src="https://user-images.githubusercontent.com/74941958/203468917-c6a473c5-7423-4549-afac-d1a7227f4aaa.gif">
+<img src="https://user-images.githubusercontent.com/74941958/203468917-c6a473c5-7423-4549-afac-d1a7227f4aaa.gif" height="300px" width="600px">
 <br>
 
 <hr>
