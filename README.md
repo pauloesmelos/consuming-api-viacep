@@ -1,4 +1,4 @@
-<h2>📦 Consumindo API e retornando um endereço de acordo com o CEP</h2>
+<h2>📦 Consumindo API e retornando um endereço de acordo com o CEP - imagens e gif</h2>
 <h1>Home</h1>
 <img src="https://user-images.githubusercontent.com/74941958/203467876-f476230d-1479-4fbd-9152-721d325b652a.png">
 <br>
@@ -13,6 +13,10 @@
 
 <h1>Resultado</h1>
 <img src="https://user-images.githubusercontent.com/74941958/203468086-2de24d31-1bb9-4445-becf-9f7b393114c9.png">
+<br>
+
+<h1>🎥 GIF</h1>
+<img src="https://user-images.githubusercontent.com/74941958/203468917-c6a473c5-7423-4549-afac-d1a7227f4aaa.gif">
 <br>
 
 <hr>
