@@ -1,0 +1,41 @@
+.beneficios{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.card{
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    width: 30%;
+    height: 35vh;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0 0 .5rem .5rem grey;
+    transform: scale(1.1);
+}
+.card h2{
+    color: #3179E5;
+}
+.card h2::before{
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #3179E5;
+    margin-right: .3rem;
+    border-radius: 10px;
+}
+.card p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: rgb(65, 61, 61);
+}
+.card img{
+    margin-top: 3rem;
+}

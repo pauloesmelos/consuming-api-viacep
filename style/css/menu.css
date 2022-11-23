@@ -1,0 +1,54 @@
+.menu-nav{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 .5rem .1rem grey;
+}
+.logo{
+    margin-left: 5rem;
+    cursor: pointer;
+}
+.logo-titulo{
+    color:#3179E5;
+}
+.logo-imagem{
+    position: absolute;
+    height: 5%;
+    top: .5rem;
+    left: 12rem;
+}
+.logo:hover .logo-imagem{
+    transform: scale(1.2);
+}
+.ul-nav{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.ul-nav li{
+    list-style-type: none;
+    margin-right: 3rem;
+}
+.normal{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 600;
+    transition: .5s;
+}
+.normal:hover{
+    opacity: .5;
+}
+.btn{
+    background-color: #3179E5;
+    padding: .5rem 1rem;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bolder;
+    transition: .5s;
+}
+.btn:hover{
+    opacity: .5;
+}

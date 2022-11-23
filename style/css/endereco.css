@@ -1,0 +1,47 @@
+.endereco{
+    margin-top: 5rem;
+    width: 100%;
+    display: none;
+}
+.div-endereco{
+    margin-left: 30%;
+}
+.address{
+    display: block;
+    width: 50%;
+    padding: .5rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.address2{
+    width: 15%;
+    padding: .3rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.d1 label{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(31, 113, 219);
+}
+.d1 label::before{
+    display: none;
+}
+/*js*/
+.endereco.ativo{
+    display: block;
+    animation: show-result 1.5s forwards;
+}
+@keyframes show-result{
+    from{
+        opacity: 0;
+        transform: translate3d(-10rem,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}

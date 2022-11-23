@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="paulo melos">
+    <meta name="description" content="consultar endereço via cep, consumindo uma api fetch da via cep em javascript">
+    <meta name="keywords" content="js,javascript,api,via cep, consultar endereço">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./imagens/maps.png">
+    <title>API Via Cep</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-nav">
+            <div class="logo">
+                <h1 class="logo-titulo">ViaCep</h1>
+                <img class="logo-imagem" src="./imagens/maps.png" alt="Logo da aplicação">
+            </div>
+            <ul class="ul-nav">
+                <li><a href="#" class="normal">Sobre</a></li>
+                <li><a href="#" class="normal">Projeto</a></li>
+                <li><a href="#" class="normal">Linkedin</a></li>
+                <li><a href="#" class="btn">DEV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="apresentacao">
+            <div class="text">
+                <h1 class="apresentacao-h1"><span class="consulte">Consulte</span> seu endereço online</h1>
+                <h4 class="apresentacao-h4">Basta inserir seu <span class="consulte">cep</span> e será retornado seu endereço</h4>
+            </div>
+            <div class="div-banner">
+                <img class="banner" alt="Banner Via Cep" src="./imagens/caminhao.svg">
+            </div>
+        </div>
+
+        <div class="beneficios">
+            <div class="b1 card">
+                <h2>Rapidez</h2>
+                <p>A resposta da API é quase imediata :)</p>
+                <img src="./imagens/Accessibility.png">
+            </div>
+
+            <div class="b2 card">
+                <h2>Segurança</h2>
+                <p>Nenhum dado será salvo!</p>
+                <img src="./imagens/Safety__Security.png">
+            </div>
+        </div>
+
+        <div class="resposta">
+            <form method="" action="" name="cep">
+                <label for="n-cep">Digite aqui seu CEP</label>
+                <div class="div-input">
+                    <img class="pesquisar" src="./imagens/search.png" alt="pesquisar">
+                    <input class="input-pesquisar"type="text" name="numcep" id="numcep" placeholder="CEP">
+                </div>
+                <button class="buscar">Consultar</button>
+            </form>
+            <div class="div-erro">
+                <span class="erro"></span>
+            </div>
+        </div>
+        <div class="endereco">
+            <div class="div-endereco">
+                <form method="" action="" name="retorno">
+                    <div class="rua d1">
+                        <label for="logradouro">Rua</label>
+                        <input class="address result" type="text" readonly id="logradouro" name="logradouro">
+                        <label for="bairro">Bairro</label>
+                        <input class="address result" type="text" readonly id="bairro" name="bairro">
+                    </div>
+        
+                    <div class="cidade d1">
+                        <label for="localidade">Cidade</label>
+                        <input class="address result" type="text" readonly id="localidade" name="localidade"><!--name pra acessar via j -->
+                        <label for="complemento">Complemento</label>
+                        <input class="address result" type="text" readonly id="complemento" name="complemento">
+                    </div>
+        
+                    <div class="outros d1">
+                        <label for="ddd">DDD(+55)</label>
+                        <input class="address2 result" type="text" readonly id="ddd" name="ddd">
+                        <label for="uf">UF</label>
+                        <input class="address2 result" type="text" readonly id="uf" name="uf">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 feito por paulo melos 💙| Consulte o repositório <a href="https://github.com/pauloesmelos/get-address-API-Consuming" target="_blank">aqui </a></p>
+    </footer>
+    <script type="module" src="./script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.resposta{
+    margin-top: 8rem;
+    text-align: center;
+}
+label{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #000;
+}
+label::before{
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    margin-right: .3rem;
+    border-radius: 10px;
+}
+.input-pesquisar{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+
+    width: 50%;
+    padding: .5rem;
+    color: #3179E5;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+.input-pesquisar::placeholder{
+    color: #3179E5;
+}
+.buscar{
+    padding: 1rem 2rem;
+    background-color: #4aae71;
+    border: none;
+    cursor: pointer;
+    margin-top: 3rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buscar:hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+.pesquisar{
+    width: 3rem;
+    position: absolute;
+    left: 30%;
+    margin-top: 5px;
+}

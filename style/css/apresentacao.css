@@ -1,0 +1,28 @@
+.apresentacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8rem;
+}
+.banner{
+    width: 50rem;
+    height: 50vh;
+}
+.consulte{
+    color: #3179E5;
+}
+.text{
+    text-align: center;
+}
+.apresentacao-h1{
+    max-width: 25rem;
+    font-size: 3rem;
+    margin-left: 10rem;
+}
+.apresentacao-h4{
+    max-width: 100%;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: 5rem;
+    color: #000;
+}
