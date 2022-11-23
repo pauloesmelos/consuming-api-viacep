@@ -4,6 +4,7 @@
 @import './css/resposta.css';
 @import './css/endereco.css';
 @import './css/footer.css';
+@import './css/media-query.css';
 *{
     padding: 0;
     margin: 0;

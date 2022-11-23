@@ -1,0 +1,79 @@
+@media(max-width: 1000px){
+    .banner{
+        width: 20rem;
+        height: 40vh;
+    }
+}
+@media(max-width: 750px){
+    body{
+        overflow-x: hidden;
+    }
+    .ul-nav{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 9%;
+    }
+    .menu-nav{
+        display: block;
+    }
+    .logo{
+        margin-left: 1rem;
+    }
+    .ul-nav li{
+        margin-top: 1.5rem;
+    }
+    /*apresentacao*/
+    .apresentacao{
+        display: block;
+        box-sizing: border-box;
+    }
+    .apresentacao-h1{
+        margin-left: 0;
+    }
+    .apresentacao-h4{
+        padding: 0;
+    }
+    .div-banner{
+        display: block;
+    }
+    .banner{
+        width: 10rem;
+        height: 40vh;
+        margin-left: 30%;
+    }
+    /*beneficios*/
+
+    /*resposta*/
+    .input-pesquisar{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    /*endereço*/
+    .address{
+        width: 80%;
+    }
+    .endereco{
+        box-sizing: border-box;
+    }
+    .div-endereco{
+        margin-left: 3%;
+    }
+}
+@media(max-width: 400px){
+    .banner{
+        width: 8rem;
+    }
+    .card h2{
+        font-size: 1.3rem;
+        word-wrap:  break-word;
+    }
+    .card img{
+        margin-top: 0;
+    }
+    .pesquisar{
+        left: 1.5rem;
+    }
+    .address{
+        font-size: 1.2rem;
+    }
+}
